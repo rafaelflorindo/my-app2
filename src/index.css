@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.TabelaUsuarios{float: left; width: 80%; margin: 30px; text-align: center;}
+  .TabelaUsuarios thead tr:first-child{background: black; color: white; font-weight: bold;}
+  .TabelaUsuarios tbody tr:nth-child(2n){background: #ccc;}
